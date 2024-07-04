@@ -4,7 +4,7 @@ import { ApiProperty } from '@nestjs/swagger';
 export class SearchDocumentDto {
   @ApiProperty({
     description: 'The name to search for',
-    example: 'Country',
+    example: 'country',
     minLength: 2,
     maxLength: 20,
   })

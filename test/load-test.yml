@@ -8,4 +8,4 @@ scenarios:
       - get:
           url: '/documents/search'
           qs:
-            name: 'Country'
+            name: 'country'
